@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbс:h2:mem:blogdb
+    password:
+    username: sa
+    driver-class-name: org.h2.Driver
+
+server:
+  servlet:
+    context-path: '/api'
+
+logging.level:
+  root: INFO
+  com.myblog: DEBUG
+

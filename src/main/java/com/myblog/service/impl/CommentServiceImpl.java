@@ -59,6 +59,7 @@ public class CommentServiceImpl implements CommentService {
         // 4. Вызвать commentDao.update(comment)
         // 5. Вернуть обновлённый комментарий
         //throw new UnsupportedOperationException("TODO: Implement updateComment");
+
         log.debug("Updating comment with id: {}", commentId);
 
         // 1. Проверить существование комментария через commentDao.findById(commentId)
