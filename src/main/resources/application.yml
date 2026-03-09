@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbs:h2:mem:blogdb
+    password:
+    username: sa
+    driver-class-name: org.h2.Driver
+
+logging.level:
+  root: INFO
+  com.myblog: DEBUG
+
