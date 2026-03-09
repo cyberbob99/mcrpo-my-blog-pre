@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbs:h2:mem:blogdb
+    url: jdbс:h2:mem:blogdb
     password:
     username: sa
     driver-class-name: org.h2.Driver
